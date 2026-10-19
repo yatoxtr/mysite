@@ -1,0 +1,40 @@
+/* Общие настройки */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Настройка Hero-секции */
+.hero-section {
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+}
+
+/* Эффект для карточек (из презентации CSS) */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+/* Адаптивная картинка в "О проекте" */
+.img-fluid {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Ограничение ширины формы контактов */
+.max-width-600 {
+    max-width: 600px;
+}
+
+/* Оформление ссылок в меню */
+.nav-link:hover {
+    text-decoration: underline;
+}
